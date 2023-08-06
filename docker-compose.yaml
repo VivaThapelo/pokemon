@@ -1,0 +1,53 @@
+version: '3.8'
+services:
+  # frontend:
+  #   container_name: frontend
+  #   build:
+  #     context: ../frontend
+  #     dockerfile: .devcontainer/Dockerfile
+  #   ports:
+  #     - "4200:4200"
+  # backend:
+  #   container_name: backend
+  #   build:
+  #     context: ../backend
+  #     dockerfile: .devcontainer/Dockerfile
+  #   ports:
+  #     - "8080:8080"
+  postgres:
+    container_name: postgres
+    image: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      PGDATA: /data/postgres
+    volumes:
+      - postgres:/data/postgres
+    ports:
+      - 5432:5432
+    networks:
+      - postgres
+    restart: unless-stopped
+  pgadmin:
+      image: dpage/pgadmin4
+      environment:
+        PGADMIN_DEFAULT_EMAIL: admin@pgadmin.com
+        PGADMIN_DEFAULT_PASSWORD: password
+        PGADMIN_LISTEN_PORT: 80
+        PGADMIN_CONFIG_SERVER_MODE: 'False'
+      ports:
+          - 15432:80
+      volumes:
+          - pgadmin:/var/lib/pgadmin
+      networks:
+        - postgres
+      # depends_on:
+      #   - database
+
+networks:
+  postgres:
+    driver: bridge
+
+volumes:
+  postgres:
+  pgadmin:
