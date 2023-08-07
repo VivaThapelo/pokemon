@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="e115d80e-a580-4f0e-a094-dfad335f7287" name="pokemon@localhost Mapping">
+      <data-sources db="1aa22b0a-ff18-4c92-bf13-d7de0db851c1" ddl="bed16ef1-367c-4f37-93ba-2f02f7331219" />
+      <scope>
+        <node kind="database" negative="1" />
+      </scope>
+    </mapping>
+  </component>
+</project>
