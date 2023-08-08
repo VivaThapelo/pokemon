@@ -1,17 +1,15 @@
-package dev.thapelo.pokemon;
+package dev.thapelo.pokemon_details;
 
 
+import com.fasterxml.jackson.annotation.JsonIncludeProperties;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
-@Entity
 @Getter
 @Setter
-@Table(name = "pokemon")
 public class Pokemon {
-    @Id @GeneratedValue(strategy = GenerationType.SEQUENCE)
-    private long Id;
+    private Long id;
     private String name;
     private String url;
 }

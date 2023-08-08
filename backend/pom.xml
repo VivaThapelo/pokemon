@@ -15,6 +15,7 @@
 
   <modules>
     <module>pokemon</module>
+    <module>pokemon-details</module>
   </modules>
 
   <properties>

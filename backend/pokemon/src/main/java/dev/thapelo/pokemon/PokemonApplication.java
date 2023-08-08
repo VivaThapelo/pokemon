@@ -36,9 +36,6 @@ public class PokemonApplication {
     @Value("${POKEMON_LIST_ENDPOINT}")
     public String POKEMON_LIST_ENDPOINT;
 
-    @Value("${POKEMON_DETAIL_ENDPOINT}")
-    public String POKEMON_DETAIL_ENDPOINT;
-
     public static void main(String[] args) {
         SpringApplication.run(PokemonApplication.class, args);
     }
@@ -68,19 +65,7 @@ public class PokemonApplication {
                 PokemonListResponse pokemonsRes = response.getBody();
                 if (pokemonsRes != null) {
                     List<Pokemon> pokemonList = pokemonsRes.getResults();
-                    pokemonList.forEach(
-                            pokemon -> {
-                                log.info(POKEMON_API_BASEURL + POKEMON_DETAIL_ENDPOINT + pokemon.getName());
-                                JsonNode detailResponse = restTemplate.getForObject(
-                                        POKEMON_API_BASEURL + POKEMON_DETAIL_ENDPOINT + pokemon.getName(),
-                                        JsonNode.class
-                                );
-                                if (detailResponse != null) {
-                                    pokemon.setImageUrl(detailResponse.get("sprites").get("other").get("official-artwork").get("front_default").toString());
-                                }
-                                pokemonRepository.saveAndFlush(pokemon);
-                            }
-                    );
+                    pokemonRepository.saveAllAndFlush(pokemonList);
                 }
             }
         }
