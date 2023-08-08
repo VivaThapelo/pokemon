@@ -1,18 +1,12 @@
 package dev.thapelo.pokemon;
 
-import com.fasterxml.jackson.databind.JsonNode;
 import jakarta.annotation.PostConstruct;
-import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
+import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
-import org.json.JSONException;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.PropertySource;
-import org.springframework.context.annotation.PropertySources;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -24,17 +18,20 @@ import java.util.List;
 @SpringBootApplication
 @Slf4j
 public class PokemonApplication {
-    @Autowired
-    private RestTemplate restTemplate;
+    private final RestTemplate restTemplate;
 
-    @Autowired
-    public PokemonRepository pokemonRepository;
+    public final PokemonRepository pokemonRepository;
 
     @Value("${POKEMON_API_BASEURL}")
     public String POKEMON_API_BASEURL;
 
     @Value("${POKEMON_LIST_ENDPOINT}")
     public String POKEMON_LIST_ENDPOINT;
+
+    public PokemonApplication(RestTemplate restTemplate, PokemonRepository pokemonRepository) {
+        this.restTemplate = restTemplate;
+        this.pokemonRepository = pokemonRepository;
+    }
 
     public static void main(String[] args) {
         SpringApplication.run(PokemonApplication.class, args);
@@ -52,6 +49,8 @@ public class PokemonApplication {
 
     @Component
     public class ThreadService {
+
+        @SneakyThrows
         public void dataSeeding() {
             log.info(POKEMON_API_BASEURL + POKEMON_LIST_ENDPOINT);
             ResponseEntity<PokemonListResponse> response = restTemplate.exchange(

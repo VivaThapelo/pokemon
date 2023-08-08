@@ -6,6 +6,7 @@ import dev.thapelo.pokemon_details.details.DetailsRepository;
 import dev.thapelo.pokemon_details.stats.StatsRepository;
 import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
+import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
@@ -58,6 +59,7 @@ public class DetailsApplication {
             this.detailsRepository = detailsRepository;
         }
 
+        @SneakyThrows
         void dataSeeding(){
             log.info(POKEMON_SERVICE_ENDPOINT);
             ResponseEntity<Pokemon[]> response = restTemplate.exchange(
