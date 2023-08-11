@@ -1,9 +1,5 @@
 package dev.thapelo.pokemon.pokemon;
 
-import static org.mockito.Mockito.when;
-
-import java.util.ArrayList;
-
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,6 +11,10 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.client.RestTemplate;
+
+import java.util.ArrayList;
+
+import static org.mockito.Mockito.when;
 
 @ContextConfiguration(classes = {PokemonController.class, PokemonService.class})
 @ExtendWith(SpringExtension.class)

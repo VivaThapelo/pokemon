@@ -15,9 +15,8 @@ import java.util.List;
 
 @Component
 public class ThreadService {
-    private final RestTemplate restTemplate;
     public final PokemonRepository pokemonRepository;
-
+    private final RestTemplate restTemplate;
     @Value("${POKEMON_API_BASEURL}")
     public String POKEMON_API_BASEURL;
 
