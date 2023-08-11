@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="87e7c54f-604d-4b55-9639-6e266efd6e8c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../backend/.idea/CoverUsage.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/hs_err_pid14488.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/src/main/java/dev/thapelo/pokemon_details/ThreadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/src/main/java/dev/thapelo/pokemon_details/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/src/test/java/dev/thapelo/pokemon_details/ability/AbilityControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/src/test/java/dev/thapelo/pokemon_details/ability/AbilityServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/src/test/java/dev/thapelo/pokemon_details/details/DetailsControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/src/test/java/dev/thapelo/pokemon_details/details/DetailsServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/src/test/java/dev/thapelo/pokemon_details/stats/StatsControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/src/test/java/dev/thapelo/pokemon_details/stats/StatsServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/WebConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon/src/main/java/dev/thapelo/pokemon/ThreadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon/src/main/java/dev/thapelo/pokemon/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon/src/test/java/dev/thapelo/pokemon/pokemon/PokemonControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon/src/test/java/dev/thapelo/pokemon/pokemon/PokemonServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon/target/classes/dev/thapelo/pokemon/WebConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/core/component/navbar/nav-bar.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/core/component/navbar/nav-bar.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/core/component/navbar/nav-bar.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/core/component/navbar/nav-bar.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/core/component/page-not-found/page-not-found.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/core/component/page-not-found/page-not-found.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/core/component/page-not-found/page-not-found.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/core/component/page-not-found/page-not-found.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/core/core.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pokemon/components/ability/ability.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pokemon/components/ability/ability.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pokemon/components/ability/ability.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pokemon/components/ability/ability.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pokemon/components/item/item.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pokemon/components/item/item.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pokemon/components/item/item.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pokemon/components/item/item.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pokemon/components/stat/stat.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pokemon/components/stat/stat.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pokemon/components/stat/stat.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pokemon/components/stat/stat.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pokemon/models/Ability.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pokemon/models/Stats.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pokemon/models/pokemon.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pokemon/pages/details/details.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pokemon/pages/details/details.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pokemon/pages/details/details.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pokemon/pages/details/details.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pokemon/pokemon-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pokemon/pokemon.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pokemon/services/abilities-service/abilities.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pokemon/services/abilities-service/abilities.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pokemon/services/pokemon-service/pokemons.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pokemon/services/pokemon-service/pokemons.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pokemon/services/stats-service/stats.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pokemon/services/stats-service/stats.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/shared/services/error-logging.interceptor.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/shared/services/error-logging.interceptor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/shared/shared.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Pokémon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Pokémon_files/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Pokémon_files/polyfills.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Pokémon_files/runtime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Pokémon_files/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Pokémon_files/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Pokémon_files/vendor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/pokeball.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/environments/environment.development.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.spec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/src/main/java/dev/thapelo/pokemon_details/DetailsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/src/main/java/dev/thapelo/pokemon_details/DetailsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/src/main/java/dev/thapelo/pokemon_details/ability/Ability.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/src/main/java/dev/thapelo/pokemon_details/ability/Ability.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/src/main/java/dev/thapelo/pokemon_details/ability/AbilityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/src/main/java/dev/thapelo/pokemon_details/ability/AbilityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/src/main/java/dev/thapelo/pokemon_details/details/DetailsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/src/main/java/dev/thapelo/pokemon_details/details/DetailsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/src/main/java/dev/thapelo/pokemon_details/details/DetailsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/src/main/java/dev/thapelo/pokemon_details/details/DetailsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/src/main/java/dev/thapelo/pokemon_details/details/DetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/src/main/java/dev/thapelo/pokemon_details/details/DetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/src/main/java/dev/thapelo/pokemon_details/stats/StatsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/src/main/java/dev/thapelo/pokemon_details/stats/StatsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/DetailsApplication$Seeder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/DetailsApplication$Seeder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/DetailsApplication$ThreadService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/DetailsApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/DetailsApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/DetailsResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/DetailsResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/ability/Ability.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/ability/Ability.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/ability/AbilityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/ability/AbilityController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/ability/AbilityService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/ability/AbilityService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/details/DetailsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/details/DetailsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/details/DetailsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/details/DetailsRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/details/DetailsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/details/DetailsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/stats/StatsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/stats/StatsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon/src/main/java/dev/thapelo/pokemon/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon/src/main/java/dev/thapelo/pokemon/pokemon/Pokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon/src/main/java/dev/thapelo/pokemon/PokemonApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon/src/main/java/dev/thapelo/pokemon/PokemonApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon/src/main/java/dev/thapelo/pokemon/PokemonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon/src/main/java/dev/thapelo/pokemon/pokemon/PokemonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon/src/main/java/dev/thapelo/pokemon/PokemonListResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon/src/main/java/dev/thapelo/pokemon/pokemon/PokemonListResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon/src/main/java/dev/thapelo/pokemon/PokemonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon/src/main/java/dev/thapelo/pokemon/pokemon/PokemonRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon/src/main/java/dev/thapelo/pokemon/PokemonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon/src/main/java/dev/thapelo/pokemon/pokemon/PokemonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon/target/classes/dev/thapelo/pokemon/Pokemon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon/target/classes/dev/thapelo/pokemon/PokemonApplication$Seeder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon/target/classes/dev/thapelo/pokemon/PokemonApplication$Seeder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon/target/classes/dev/thapelo/pokemon/PokemonApplication$ThreadService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon/target/classes/dev/thapelo/pokemon/PokemonApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon/target/classes/dev/thapelo/pokemon/PokemonApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon/target/classes/dev/thapelo/pokemon/PokemonController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon/target/classes/dev/thapelo/pokemon/PokemonListResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon/target/classes/dev/thapelo/pokemon/PokemonRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon/target/classes/dev/thapelo/pokemon/PokemonService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.devcontainer/Dockerfile" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2TkRxKURfPeUpSEUARjEwkxrahe" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "terminal",
+    "ts.external.directory.path": "/Users/thapeloradebe/Development/Projects/PokemonApp/frontend/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/shared" />
+      <recent name="$PROJECT_DIR$/src/app/core/component/navbar" />
+      <recent name="$PROJECT_DIR$/src/app/pokemon/services/stats-service" />
+      <recent name="$PROJECT_DIR$/src/app/pokemon/services/pokemon-service" />
+      <recent name="$PROJECT_DIR$/src/app/pokemon/services/image-service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="AbilitiesService" type="JavaScriptTestRunnerKarma" temporary="true" nameIsGenerated="true">
+      <config-file value="" />
+      <karma-package-dir value="$PROJECT_DIR$/node_modules/@angular/cli" />
+      <working-directory value="$PROJECT_DIR$" />
+      <node-interpreter value="project" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file-path value="$PROJECT_DIR$/src/app/pokemon/services/abilities-service/abilities.service.spec.ts" />
+      <test-names>
+        <test-name value="AbilitiesService" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="abilities.service.spec.ts" type="JavaScriptTestRunnerKarma" temporary="true" nameIsGenerated="true">
+      <config-file value="" />
+      <karma-package-dir value="$PROJECT_DIR$/node_modules/@angular/cli" />
+      <working-directory value="$PROJECT_DIR$" />
+      <node-interpreter value="project" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file-path value="$PROJECT_DIR$/src/app/pokemon/services/abilities-service/abilities.service.spec.ts" />
+      <method v="2" />
+    </configuration>
+    <configuration name="details.component.spec.ts" type="JavaScriptTestRunnerKarma" temporary="true" nameIsGenerated="true">
+      <config-file value="" />
+      <karma-package-dir value="$PROJECT_DIR$/node_modules/@angular/cli" />
+      <working-directory value="$PROJECT_DIR$" />
+      <node-interpreter value="project" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file-path value="$PROJECT_DIR$/src/app/pokemon/pages/details/details.component.spec.ts" />
+      <method v="2" />
+    </configuration>
+    <configuration name="image.service.spec.ts" type="JavaScriptTestRunnerKarma" temporary="true" nameIsGenerated="true">
+      <config-file value="" />
+      <karma-package-dir value="$PROJECT_DIR$/node_modules/@angular/cli" />
+      <working-directory value="$PROJECT_DIR$" />
+      <node-interpreter value="project" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file-path value="$PROJECT_DIR$/src/app/pokemon/services/image-service/image.service.spec.ts" />
+      <method v="2" />
+    </configuration>
+    <configuration name="stat.component.spec.ts" type="JavaScriptTestRunnerKarma" temporary="true" nameIsGenerated="true">
+      <config-file value="" />
+      <karma-package-dir value="$PROJECT_DIR$/node_modules/@angular/cli" />
+      <working-directory value="$PROJECT_DIR$" />
+      <node-interpreter value="project" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file-path value="$PROJECT_DIR$/src/app/pokemon/components/stat/stat.component.spec.ts" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Karma.image.service.spec.ts" />
+        <item itemvalue="Karma.abilities.service.spec.ts" />
+        <item itemvalue="Karma.AbilitiesService" />
+        <item itemvalue="Karma.details.component.spec.ts" />
+        <item itemvalue="Karma.stat.component.spec.ts" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="87e7c54f-604d-4b55-9639-6e266efd6e8c" name="Changes" comment="" />
+      <created>1691585340802</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691585340802</updated>
+      <workItem from="1691585342206" duration="28080000" />
+      <workItem from="1691691892057" duration="27647000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/pokemon/components/stat/stat.component.spec.ts</url>
+          <line>37</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.github.evgenys91.machinet.common.dslhistory.DslHistoryState">
+    <option name="historyDtoById">
+      <map>
+        <entry key="1d6263">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/app/pokemon/services/pokemon-service/pokemons.service.ts" />
+                </list>
+              </option>
+              <option name="id" value="1d6263" />
+              <option name="initiateTms" value="1691718949133" />
+              <option name="request" value="write tests for PokemonsService" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Certainly! Here's an example of how you can write tests for the `PokemonsService` using the Jasmine testing framework:&#10;&#10;```typescript&#10;import { TestBed } from '@angular/core/testing';&#10;import { HttpClientTestingModule, HttpTestingController } from '@angular/common/http/testing';&#10;import { PokemonsService } from './pokemons.service';&#10;import { environment } from '../../../../environments/environment';&#10;import { Pokemon } from '../../models/pokemon';&#10;&#10;describe('PokemonsService', () =&gt; {&#10;  let service: PokemonsService;&#10;  let httpMock: HttpTestingController;&#10;&#10;  beforeEach(() =&gt; {&#10;    TestBed.configureTestingModule({&#10;      imports: [HttpClientTestingModule],&#10;      providers: [PokemonsService]&#10;    });&#10;    service = TestBed.inject(PokemonsService);&#10;    httpMock = TestBed.inject(HttpTestingController);&#10;  });&#10;&#10;  afterEach(() =&gt; {&#10;    httpMock.verify();&#10;  });&#10;&#10;  it('should retrieve the list of pokemons', () =&gt; {&#10;    const mockPokemons: Pokemon[] = [&#10;      { id: 1, name: 'Pokemon 1' },&#10;      { id: 2, name: 'Pokemon 2' },&#10;      { id: 3, name: 'Pokemon 3' }&#10;    ];&#10;&#10;    service.getPokemonList().subscribe((pokemons: Pokemon[]) =&gt; {&#10;      expect(pokemons).toEqual(mockPokemons);&#10;    });&#10;&#10;    const req = httpMock.expectOne(`${environment.pokemon_list_endpoint}`);&#10;    expect(req.request.method).toBe('GET');&#10;    req.flush(mockPokemons);&#10;  });&#10;&#10;  it('should handle errors when retrieving the list of pokemons', () =&gt; {&#10;    service.getPokemonList().subscribe(&#10;      () =&gt; {&#10;        fail('Expected error to be thrown');&#10;      },&#10;      (error: any) =&gt; {&#10;        expect(error.status).toBe(500);&#10;        expect(error.statusText).toBe('Internal Server Error');&#10;      }&#10;    );&#10;&#10;    const req = httpMock.expectOne(`${environment.pokemon_list_endpoint}`);&#10;    expect(req.request.method).toBe('GET');&#10;    req.flush('Internal Server Error', { status: 500, statusText: 'Internal Server Error' });&#10;  });&#10;});&#10;```&#10;&#10;In this test, we are using `TestBed` from Angular's testing module to configure the testing environment. We import `HttpClientTestingModule` to mock the HTTP requests and `HttpTestingController` to control and verify the requests made by the service.&#10;&#10;We then create an instance of the `PokemonsService` using `TestBed.inject()` and the `HttpTestingController` using `TestBed.inject()` as well.&#10;&#10;In the first test case, we define a mock pokemons array and call the `getPokemonList()` method of the service. We subscribe to the returned observable and assert that the pokemons received are equal to the mock pokemons.&#10;&#10;We also use `httpMock.expectOne()` to expect a single HTTP request to the correct URL and method. We then use `req.flush()` to provide the mock response for the request.&#10;&#10;In the second test case, we test the error handling of the service. We expect an error to be thrown and assert that the error status and status text match the expected values.&#10;&#10;Finally, we call `httpMock.verify()` in the `afterEach()` block to ensure that all expected requests were made.&#10;&#10;Remember to import the necessary dependencies and adjust the imports according to your project structure." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1691718973707" />
+              <option name="usedFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/app/pokemon/services/pokemon-service/pokemons.service.ts" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="212284">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/app/pokemon/services/image-service/image.service.ts" />
+                </list>
+              </option>
+              <option name="id" value="212284" />
+              <option name="initiateTms" value="1691718572230" />
+              <option name="request" value="writes tests for ImageService" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Certainly! Here's an example of how you can write tests for the `ImageService` using the Jasmine testing framework:&#10;&#10;```typescript&#10;import { TestBed } from '@angular/core/testing';&#10;import { HttpClientTestingModule, HttpTestingController } from '@angular/common/http/testing';&#10;import { ImageService } from './image.service';&#10;import { environment } from '../../../../environments/environment';&#10;&#10;describe('ImageService', () =&gt; {&#10;  let service: ImageService;&#10;  let httpMock: HttpTestingController;&#10;&#10;  beforeEach(() =&gt; {&#10;    TestBed.configureTestingModule({&#10;      imports: [HttpClientTestingModule],&#10;      providers: [ImageService]&#10;    });&#10;    service = TestBed.inject(ImageService);&#10;    httpMock = TestBed.inject(HttpTestingController);&#10;  });&#10;&#10;  afterEach(() =&gt; {&#10;    httpMock.verify();&#10;  });&#10;&#10;  it('should retrieve the image URL for a given ID', () =&gt; {&#10;    const mockImageUrl = 'https://example.com/image.png';&#10;    const pokemonId = 1;&#10;&#10;    service.getImage(pokemonId).subscribe((imageUrl: string) =&gt; {&#10;      expect(imageUrl).toEqual(mockImageUrl);&#10;    });&#10;&#10;    const req = httpMock.expectOne(`${environment.pokemon_image_endpoint}/${pokemonId}`);&#10;    expect(req.request.method).toBe('GET');&#10;    req.flush(mockImageUrl);&#10;  });&#10;&#10;  it('should handle errors when retrieving the image URL', () =&gt; {&#10;    const pokemonId = 1;&#10;&#10;    service.getImage(pokemonId).subscribe(&#10;      () =&gt; {&#10;        fail('Expected error to be thrown');&#10;      },&#10;      (error: any) =&gt; {&#10;        expect(error.status).toBe(500);&#10;        expect(error.statusText).toBe('Internal Server Error');&#10;      }&#10;    );&#10;&#10;    const req = httpMock.expectOne(`${environment.pokemon_image_endpoint}/${pokemonId}`);&#10;    expect(req.request.method).toBe('GET');&#10;    req.flush('Internal Server Error', { status: 500, statusText: 'Internal Server Error' });&#10;  });&#10;});&#10;```&#10;&#10;In this test, we are using `TestBed` from Angular's testing module to configure the testing environment. We import `HttpClientTestingModule` to mock the HTTP requests and `HttpTestingController` to control and verify the requests made by the service.&#10;&#10;We then create an instance of the `ImageService` using `TestBed.inject()` and the `HttpTestingController` using `TestBed.inject()` as well.&#10;&#10;In the first test case, we define a mock image URL and call the `getImage()` method of the service. We subscribe to the returned observable and assert that the image URL received is equal to the mock image URL.&#10;&#10;We also use `httpMock.expectOne()` to expect a single HTTP request to the correct URL and method. We then use `req.flush()` to provide the mock response for the request.&#10;&#10;In the second test case, we test the error handling of the service. We expect an error to be thrown and assert that the error status and status text match the expected values.&#10;&#10;Finally, we call `httpMock.verify()` in the `afterEach()` block to ensure that all expected requests were made.&#10;&#10;Remember to import the necessary dependencies and adjust the imports according to your project structure." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1691718598204" />
+              <option name="usedFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/app/pokemon/services/image-service/image.service.ts" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="4bf3ae">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/app/pokemon/pages/pokemon/pokemon.component.ts" />
+                  <option value="$PROJECT_DIR$/src/app/pokemon/pages/pokemon/pokemon.component.scss" />
+                  <option value="$PROJECT_DIR$/src/app/pokemon/pages/pokemon/pokemon.component.html" />
+                </list>
+              </option>
+              <option name="id" value="4bf3ae" />
+              <option name="initiateTms" value="1691719026836" />
+              <option name="request" value="write tests for PokemonComponent" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Certainly! Here's an example of how you can write tests for the `PokemonComponent` using the Jasmine testing framework:&#10;&#10;```typescript&#10;import { ComponentFixture, TestBed } from '@angular/core/testing';&#10;import { BehaviorSubject, of } from 'rxjs';&#10;import { PokemonComponent } from './pokemon.component';&#10;import { PokemonsService } from '../../services/pokemon-service/pokemons.service';&#10;import { Pokemon } from '../../models/pokemon';&#10;&#10;describe('PokemonComponent', () =&gt; {&#10;  let component: PokemonComponent;&#10;  let fixture: ComponentFixture&lt;PokemonComponent&gt;;&#10;  let mockPokemonsService: jasmine.SpyObj&lt;PokemonsService&gt;;&#10;&#10;  beforeEach(async () =&gt; {&#10;    mockPokemonsService = jasmine.createSpyObj('PokemonsService', ['getPokemonList']);&#10;    await TestBed.configureTestingModule({&#10;      declarations: [PokemonComponent],&#10;      providers: [{ provide: PokemonsService, useValue: mockPokemonsService }]&#10;    }).compileComponents();&#10;  });&#10;&#10;  beforeEach(() =&gt; {&#10;    fixture = TestBed.createComponent(PokemonComponent);&#10;    component = fixture.componentInstance;&#10;  });&#10;&#10;  it('should create', () =&gt; {&#10;    expect(component).toBeTruthy();&#10;  });&#10;&#10;  it('should retrieve the list of pokemons on initialization', () =&gt; {&#10;    const mockPokemons: Pokemon[] = [&#10;      { id: 1, name: 'Pokemon 1' },&#10;      { id: 2, name: 'Pokemon 2' },&#10;      { id: 3, name: 'Pokemon 3' }&#10;    ];&#10;    mockPokemonsService.getPokemonList.and.returnValue(of(mockPokemons));&#10;&#10;    fixture.detectChanges();&#10;&#10;    expect(component.pokemons$).toEqual(new BehaviorSubject&lt;Pokemon[]&gt;(mockPokemons));&#10;  });&#10;});&#10;```&#10;&#10;In this test, we are using `TestBed` from Angular's testing module to configure the testing environment. We create a mock `PokemonsService` using `jasmine.createSpyObj()` to mock the service methods.&#10;&#10;In the `beforeEach()` block, we configure the testing module by providing the mock `PokemonsService` and compiling the component.&#10;&#10;In the first test case, we check if the component is created successfully by asserting that `component` is truthy.&#10;&#10;In the second test case, we simulate the retrieval of the list of pokemons by setting up the mock `getPokemonList()` method of the `PokemonsService` to return an observable of mock pokemons. We then call `fixture.detectChanges()` to trigger the initialization of the component.&#10;&#10;Finally, we assert that the `pokemons$` property of the component is equal to a new `BehaviorSubject` initialized with the mock pokemons.&#10;&#10;Remember to import the necessary dependencies and adjust the imports according to your project structure." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1691719049284" />
+              <option name="usedFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/app/pokemon/pages/pokemon/pokemon.component.ts" />
+                  <option value="$PROJECT_DIR$/src/app/pokemon/pages/pokemon/pokemon.component.scss" />
+                  <option value="$PROJECT_DIR$/src/app/pokemon/pages/pokemon/pokemon.component.html" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="6103db">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/app/pokemon/services/abilities-service/abilities.service.ts" />
+                </list>
+              </option>
+              <option name="id" value="6103db" />
+              <option name="initiateTms" value="1691718275297" />
+              <option name="request" value="write test for: AbilitiesService" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Sure! Here's an example of how you can write a test for the `AbilitiesService` using the Jasmine testing framework:&#10;&#10;```typescript&#10;import { TestBed } from '@angular/core/testing';&#10;import { HttpClientTestingModule, HttpTestingController } from '@angular/common/http/testing';&#10;import { AbilitiesService } from './abilities.service';&#10;import { Ability } from '../../models/Ability';&#10;import { environment } from '../../../../environments/environment';&#10;&#10;describe('AbilitiesService', () =&gt; {&#10;  let service: AbilitiesService;&#10;  let httpMock: HttpTestingController;&#10;&#10;  beforeEach(() =&gt; {&#10;    TestBed.configureTestingModule({&#10;      imports: [HttpClientTestingModule],&#10;      providers: [AbilitiesService]&#10;    });&#10;    service = TestBed.inject(AbilitiesService);&#10;    httpMock = TestBed.inject(HttpTestingController);&#10;  });&#10;&#10;  afterEach(() =&gt; {&#10;    httpMock.verify();&#10;  });&#10;&#10;  it('should retrieve abilities for a given ID', () =&gt; {&#10;    const mockAbilities: Ability[] = [&#10;      { id: 1, name: 'Ability 1' },&#10;      { id: 2, name: 'Ability 2' },&#10;      { id: 3, name: 'Ability 3' }&#10;    ];&#10;    const pokemonId = 1;&#10;&#10;    service.getAbilities(pokemonId).subscribe((abilities: Ability[]) =&gt; {&#10;      expect(abilities).toEqual(mockAbilities);&#10;    });&#10;&#10;    const req = httpMock.expectOne(`${environment.pokemon_abilities_endpoint}/${pokemonId}`);&#10;    expect(req.request.method).toBe('GET');&#10;    req.flush(mockAbilities);&#10;  });&#10;});&#10;```&#10;&#10;In this test, we are using `TestBed` from Angular's testing module to configure the testing environment. We import `HttpClientTestingModule` to mock the HTTP requests and `HttpTestingController` to control and verify the requests made by the service.&#10;&#10;We then create an instance of the `AbilitiesService` using `TestBed.inject()` and the `HttpTestingController` using `TestBed.inject()` as well.&#10;&#10;In the test case, we define a mock response for the abilities and call the `getAbilities()` method of the service. We subscribe to the returned observable and assert that the abilities received are equal to the mock abilities.&#10;&#10;We also use `httpMock.expectOne()` to expect a single HTTP request to the correct URL and method. We then use `req.flush()` to provide the mock response for the request.&#10;&#10;Finally, we call `httpMock.verify()` in the `afterEach()` block to ensure that all expected requests were made.&#10;&#10;Remember to import the necessary dependencies and adjust the imports according to your project structure." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1691718298554" />
+              <option name="usedFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/app/pokemon/services/abilities-service/abilities.service.ts" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="7db35e">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/app/pokemon/services/stats-service/stats.service.ts" />
+                </list>
+              </option>
+              <option name="id" value="7db35e" />
+              <option name="initiateTms" value="1691718666423" />
+              <option name="request" value="write a test for StatsService" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Certainly! Here's an example of how you can write a test for the `StatsService` using the Jasmine testing framework:&#10;&#10;```typescript&#10;import { TestBed } from '@angular/core/testing';&#10;import { HttpClientTestingModule, HttpTestingController } from '@angular/common/http/testing';&#10;import { StatsService } from './stats.service';&#10;import { environment } from '../../../../environments/environment';&#10;import { Stats } from '../../models/Stats';&#10;&#10;describe('StatsService', () =&gt; {&#10;  let service: StatsService;&#10;  let httpMock: HttpTestingController;&#10;&#10;  beforeEach(() =&gt; {&#10;    TestBed.configureTestingModule({&#10;      imports: [HttpClientTestingModule],&#10;      providers: [StatsService]&#10;    });&#10;    service = TestBed.inject(StatsService);&#10;    httpMock = TestBed.inject(HttpTestingController);&#10;  });&#10;&#10;  afterEach(() =&gt; {&#10;    httpMock.verify();&#10;  });&#10;&#10;  it('should retrieve the stats for a given ID', () =&gt; {&#10;    const mockStats: Stats[] = [&#10;      { id: 1, name: 'Stat 1', value: 10 },&#10;      { id: 2, name: 'Stat 2', value: 20 },&#10;      { id: 3, name: 'Stat 3', value: 30 }&#10;    ];&#10;    const pokemonId = 1;&#10;&#10;    service.getPokemonStats(pokemonId).subscribe((stats: Stats[]) =&gt; {&#10;      expect(stats).toEqual(mockStats);&#10;    });&#10;&#10;    const req = httpMock.expectOne(`${environment.pokemon_stats_endpoint}/${pokemonId}`);&#10;    expect(req.request.method).toBe('GET');&#10;    req.flush(mockStats);&#10;  });&#10;&#10;  it('should handle errors when retrieving the stats', () =&gt; {&#10;    const pokemonId = 1;&#10;&#10;    service.getPokemonStats(pokemonId).subscribe(&#10;      () =&gt; {&#10;        fail('Expected error to be thrown');&#10;      },&#10;      (error: any) =&gt; {&#10;        expect(error.status).toBe(500);&#10;        expect(error.statusText).toBe('Internal Server Error');&#10;      }&#10;    );&#10;&#10;    const req = httpMock.expectOne(`${environment.pokemon_stats_endpoint}/${pokemonId}`);&#10;    expect(req.request.method).toBe('GET');&#10;    req.flush('Internal Server Error', { status: 500, statusText: 'Internal Server Error' });&#10;  });&#10;});&#10;```&#10;&#10;In this test, we are using `TestBed` from Angular's testing module to configure the testing environment. We import `HttpClientTestingModule` to mock the HTTP requests and `HttpTestingController` to control and verify the requests made by the service.&#10;&#10;We then create an instance of the `StatsService` using `TestBed.inject()` and the `HttpTestingController` using `TestBed.inject()` as well.&#10;&#10;In the first test case, we define a mock stats array and call the `getPokemonStats()` method of the service. We subscribe to the returned observable and assert that the stats received are equal to the mock stats.&#10;&#10;We also use `httpMock.expectOne()` to expect a single HTTP request to the correct URL and method. We then use `req.flush()` to provide the mock response for the request.&#10;&#10;In the second test case, we test the error handling of the service. We expect an error to be thrown and assert that the error status and status text match the expected values.&#10;&#10;Finally, we call `httpMock.verify()` in the `afterEach()` block to ensure that all expected requests were made.&#10;&#10;Remember to import the necessary dependencies and adjust the imports according to your project structure." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1691718688117" />
+              <option name="usedFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/app/pokemon/services/stats-service/stats.service.ts" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="8c7a77">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/app/pokemon/components/item/item.component.ts" />
+                  <option value="$PROJECT_DIR$/src/app/pokemon/components/item/item.component.html" />
+                  <option value="$PROJECT_DIR$/src/app/pokemon/components/item/item.component.scss" />
+                </list>
+              </option>
+              <option name="id" value="8c7a77" />
+              <option name="initiateTms" value="1691719240580" />
+              <option name="request" value="write tests for ItemComponent" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Certainly! Here's an example of how you can write tests for the `ItemComponent` using the Jasmine testing framework:&#10;&#10;```typescript&#10;import { ComponentFixture, TestBed } from '@angular/core/testing';&#10;import { BehaviorSubject, of } from 'rxjs';&#10;import { ItemComponent } from './item.component';&#10;import { ImageService } from '../../services/image-service/image.service';&#10;import { Pokemon } from '../../models/pokemon';&#10;&#10;describe('ItemComponent', () =&gt; {&#10;  let component: ItemComponent;&#10;  let fixture: ComponentFixture&lt;ItemComponent&gt;;&#10;  let mockImageService: jasmine.SpyObj&lt;ImageService&gt;;&#10;&#10;  beforeEach(async () =&gt; {&#10;    mockImageService = jasmine.createSpyObj('ImageService', ['getImage']);&#10;    await TestBed.configureTestingModule({&#10;      declarations: [ItemComponent],&#10;      providers: [{ provide: ImageService, useValue: mockImageService }]&#10;    }).compileComponents();&#10;  });&#10;&#10;  beforeEach(() =&gt; {&#10;    fixture = TestBed.createComponent(ItemComponent);&#10;    component = fixture.componentInstance;&#10;  });&#10;&#10;  it('should create', () =&gt; {&#10;    expect(component).toBeTruthy();&#10;  });&#10;&#10;  it('should retrieve the image URL on initialization', () =&gt; {&#10;    const mockImageUrl = 'https://example.com/image.png';&#10;    const mockPokemon: Pokemon = { id: 1, name: 'Pokemon 1' };&#10;&#10;    mockImageService.getImage.and.returnValue(of(mockImageUrl));&#10;&#10;    component.pokemon = mockPokemon;&#10;    fixture.detectChanges();&#10;&#10;    expect(component.imageUrl$.value).toBe(mockImageUrl);&#10;  });&#10;});&#10;```&#10;&#10;In this test, we are using `TestBed` from Angular's testing module to configure the testing environment. We create a mock `ImageService` using `jasmine.createSpyObj()` to mock the service methods.&#10;&#10;In the `beforeEach()` block, we configure the testing module by providing the mock service and compiling the component.&#10;&#10;In the first test case, we check if the component is created successfully by asserting that `component` is truthy.&#10;&#10;In the second test case, we simulate the retrieval of the image URL by setting up the mock `getImage()` method of the `ImageService` to return an observable of the mock image URL. We then set the `pokemon` property of the component to a mock pokemon and call `fixture.detectChanges()` to trigger the initialization of the component.&#10;&#10;Finally, we assert that the `imageUrl$.value` property of the component is equal to the mock image URL.&#10;&#10;Remember to import the necessary dependencies and adjust the imports according to your project structure." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1691719259714" />
+              <option name="usedFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/app/pokemon/components/item/item.component.scss" />
+                  <option value="$PROJECT_DIR$/src/app/pokemon/components/item/item.component.ts" />
+                  <option value="$PROJECT_DIR$/src/app/pokemon/components/item/item.component.html" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="f9d593">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/app/pokemon/pages/details/details.component.ts" />
+                  <option value="$PROJECT_DIR$/src/app/pokemon/pages/details/details.component.html" />
+                  <option value="$PROJECT_DIR$/src/app/pokemon/pages/details/details.component.scss" />
+                </list>
+              </option>
+              <option name="id" value="f9d593" />
+              <option name="initiateTms" value="1691719104743" />
+              <option name="request" value="write tests for DetailsComponent" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Certainly! Here's an example of how you can write tests for the `DetailsComponent` using the Jasmine testing framework:&#10;&#10;```typescript&#10;import { ComponentFixture, TestBed } from '@angular/core/testing';&#10;import { BehaviorSubject, of } from 'rxjs';&#10;import { DetailsComponent } from './details.component';&#10;import { AbilitiesService } from '../../services/abilities-service/abilities.service';&#10;import { StatsService } from '../../services/stats-service/stats.service';&#10;import { Ability } from '../../models/Ability';&#10;import { Stats } from '../../models/Stats';&#10;&#10;describe('DetailsComponent', () =&gt; {&#10;  let component: DetailsComponent;&#10;  let fixture: ComponentFixture&lt;DetailsComponent&gt;;&#10;  let mockAbilitiesService: jasmine.SpyObj&lt;AbilitiesService&gt;;&#10;  let mockStatsService: jasmine.SpyObj&lt;StatsService&gt;;&#10;&#10;  beforeEach(async () =&gt; {&#10;    mockAbilitiesService = jasmine.createSpyObj('AbilitiesService', ['getAbilities']);&#10;    mockStatsService = jasmine.createSpyObj('StatsService', ['getPokemonStats']);&#10;    await TestBed.configureTestingModule({&#10;      declarations: [DetailsComponent],&#10;      providers: [&#10;        { provide: AbilitiesService, useValue: mockAbilitiesService },&#10;        { provide: StatsService, useValue: mockStatsService }&#10;      ]&#10;    }).compileComponents();&#10;  });&#10;&#10;  beforeEach(() =&gt; {&#10;    fixture = TestBed.createComponent(DetailsComponent);&#10;    component = fixture.componentInstance;&#10;  });&#10;&#10;  it('should create', () =&gt; {&#10;    expect(component).toBeTruthy();&#10;  });&#10;&#10;  it('should retrieve abilities and stats on initialization', () =&gt; {&#10;    const mockAbilities: Ability[] = [&#10;      { id: 1, name: 'Ability 1' },&#10;      { id: 2, name: 'Ability 2' },&#10;      { id: 3, name: 'Ability 3' }&#10;    ];&#10;    const mockStats: Stats[] = [&#10;      { id: 1, name: 'Stat 1', value: 10 },&#10;      { id: 2, name: 'Stat 2', value: 20 },&#10;      { id: 3, name: 'Stat 3', value: 30 }&#10;    ];&#10;    const mockPokemon = { id: 1, name: 'Pokemon 1' };&#10;&#10;    mockAbilitiesService.getAbilities.and.returnValue(of(mockAbilities));&#10;    mockStatsService.getPokemonStats.and.returnValue(of(mockStats));&#10;&#10;    component.pokemon = mockPokemon;&#10;    fixture.detectChanges();&#10;&#10;    expect(component.abilities$).toEqual(new BehaviorSubject&lt;Ability[]&gt;(mockAbilities));&#10;    expect(component.stats$).toEqual(new BehaviorSubject&lt;Stats[]&gt;(mockStats));&#10;  });&#10;});&#10;```&#10;&#10;In this test, we are using `TestBed` from Angular's testing module to configure the testing environment. We create mock `AbilitiesService` and `StatsService` using `jasmine.createSpyObj()` to mock the service methods.&#10;&#10;In the `beforeEach()` block, we configure the testing module by providing the mock services and compiling the component.&#10;&#10;In the first test case, we check if the component is created successfully by asserting that `component` is truthy.&#10;&#10;In the second test case, we simulate the retrieval of abilities and stats by setting up the mock `getAbilities()` and `getPokemonStats()` methods of the respective services to return observables of mock abilities and stats. We then set the `pokemon` property of the component to a mock pokemon and call `fixture.detectChanges()` to trigger the initialization of the component.&#10;&#10;Finally, we assert that the `abilities$` and `stats$` properties of the component are equal to new `BehaviorSubject` instances initialized with the mock abilities and stats.&#10;&#10;Remember to import the necessary dependencies and adjust the imports according to your project structure." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1691719133764" />
+              <option name="usedFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/app/pokemon/pages/details/details.component.ts" />
+                  <option value="$PROJECT_DIR$/src/app/pokemon/pages/details/details.component.html" />
+                  <option value="$PROJECT_DIR$/src/app/pokemon/pages/details/details.component.scss" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

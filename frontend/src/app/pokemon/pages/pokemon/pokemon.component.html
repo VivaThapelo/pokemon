@@ -1,0 +1,8 @@
+<ul class="container" *ngFor="let pokemon of pokemons$ | async" >
+  <li class="item">
+    <a [routerLink]="['details']" [state]=pokemon >
+      <app-item [pokemon]="pokemon" [size]="200"></app-item>
+    </a>
+  </li>
+</ul>
+

@@ -7,4 +7,7 @@ public interface DetailsRepository extends JpaRepository<Details, Long> {
 
     @Query(value = "SELECT image_url FROM details WHERE id=?",nativeQuery = true)
     String findByImageById(Long Id);
+
+    @Query(value = "SELECT image_url FROM details",nativeQuery = true)
+    String[] findAllImages();
 }

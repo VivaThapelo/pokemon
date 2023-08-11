@@ -15,4 +15,6 @@ public record DetailsService(DetailsRepository detailsRepository) {
         return detailsRepository.findByImageById(id);
     }
 
+    String[] getImagesUrls() { return detailsRepository.findAllImages(); }
+
 }

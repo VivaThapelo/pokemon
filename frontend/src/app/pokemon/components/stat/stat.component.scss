@@ -1,0 +1,12 @@
+li {
+  .stat-row {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4px;
+    margin-right: 8px;
+  }
+   p {
+     font-weight: bold;
+   }
+}

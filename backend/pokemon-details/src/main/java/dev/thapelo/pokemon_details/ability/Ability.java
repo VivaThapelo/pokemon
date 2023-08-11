@@ -12,6 +12,9 @@ import java.util.Map;
 @Entity
 @Table(name = "ability")
 @ToString
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class Ability {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)

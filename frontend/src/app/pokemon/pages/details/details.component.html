@@ -1,0 +1,18 @@
+<div class="details">
+  <h1>{{pokemon?.name || ''}}</h1>
+   <div class="container">
+     <app-item *ngIf="pokemon" [pokemon]="pokemon" [size]="500"></app-item>
+     <ul *ngIf="abilities$ | async">
+       <h2>Abilities</h2>
+     <div *ngFor="let ability of abilities$ | async">
+      <li><app-ability [name]="ability.name" ></app-ability></li>
+     </div>
+     </ul>
+   </div>
+  <div class="stats" *ngIf="stats$ | async">
+    <h2>Stats</h2>
+    <div class="stats_item" *ngFor="let stat of stats$ | async" >
+      <app-stat [stat]="stat"></app-stat>
+    </div>
+  </div>
+</div>
