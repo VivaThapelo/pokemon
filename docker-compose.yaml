@@ -1,19 +1,22 @@
 version: '3.8'
 services:
-  # frontend:
-  #   container_name: frontend
-  #   build:
-  #     context: ../frontend
-  #     dockerfile: .devcontainer/Dockerfile
-  #   ports:
-  #     - "4200:4200"
-  # backend:
-  #   container_name: backend
-  #   build:
-  #     context: ../backend
-  #     dockerfile: .devcontainer/Dockerfile
-  #   ports:
-  #     - "8080:8080"
+  pokemon:
+    build:
+      context: ./backend/pokemon
+      dockerfile: Dockerfile
+    ports:
+      - 8080:8080
+    depends_on:
+      - postgres
+  pokemon-details:
+    build:
+      context: ./backend/pokemon-details
+      dockerfile: Dockerfile
+    ports:
+      - 8085:8085
+    depends_on:
+      - postgres
+      - pokemon
   postgres:
     container_name: postgres
     image: postgres

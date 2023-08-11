@@ -31,7 +31,7 @@ class AbilityControllerTest {
     @Test
     void testGetAbilities() throws Exception {
         when(abilityRepository.findByPokemonId(Mockito.<Long>any())).thenReturn(new ArrayList<>());
-        MockHttpServletRequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/v1/details/abilities/42");
+        MockHttpServletRequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/v1/pokemon/details/abilities/42");
         MockMvcBuilders.standaloneSetup(abilityController)
                 .build()
                 .perform(requestBuilder)

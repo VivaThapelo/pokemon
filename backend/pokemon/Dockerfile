@@ -5,7 +5,7 @@ FROM maven:3.8.3-openjdk-17
 WORKDIR /app
 
 # Copy the Maven project file
-COPY pom.xml .
+COPY ../pom.xml .
 
 # Download the project dependencies
 RUN mvn dependency:go-offline -B
@@ -20,4 +20,4 @@ RUN mvn package
 EXPOSE 8080
 
 # Run the application
-CMD ["java", "-jar", "target/backend-1.0-SNAPSHOT.jar"]
+CMD ["java", "-jar", "target/pokemon-1.0-SNAPSHOT.jar"]

@@ -37,7 +37,7 @@ class DetailsControllerTest {
         details.setWeight(3);
         Optional<Details> ofResult = Optional.of(details);
         when(detailsRepository.findById(Mockito.<Long>any())).thenReturn(ofResult);
-        MockHttpServletRequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/v1/details/42");
+        MockHttpServletRequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/v1/pokemon/details/42");
         MockMvcBuilders.standaloneSetup(detailsController)
                 .build()
                 .perform(requestBuilder)
@@ -45,21 +45,6 @@ class DetailsControllerTest {
                 .andExpect(MockMvcResultMatchers.content().contentType("application/json"))
                 .andExpect(MockMvcResultMatchers.content()
                         .string("{\"imageUrl\":\"https://example.org/example\",\"id\":1,\"height\":1,\"weight\":3}"));
-    }
-
-    /**
-     * Method under test: {@link DetailsController#getPokemonImage(Long)}
-     */
-    @Test
-    void testGetPokemonImage() throws Exception {
-        when(detailsRepository.findByImageById(Mockito.<Long>any())).thenReturn("42");
-        MockHttpServletRequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/v1/details/image/42");
-        MockMvcBuilders.standaloneSetup(detailsController)
-                .build()
-                .perform(requestBuilder)
-                .andExpect(MockMvcResultMatchers.status().isOk())
-                .andExpect(MockMvcResultMatchers.content().contentType("text/plain;charset=ISO-8859-1"))
-                .andExpect(MockMvcResultMatchers.content().string("42"));
     }
 }
 

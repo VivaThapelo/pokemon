@@ -5,15 +5,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87e7c54f-604d-4b55-9639-6e266efd6e8c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/pokemon-details-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/site/css/maven-base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/site/css/maven-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/site/css/print.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/site/css/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/site/dependencies.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/site/dependency-info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/site/dependency-management.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/site/images/close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/site/images/collapsed.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/site/images/expanded.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/site/images/external.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/site/images/icon_error_sml.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/site/images/icon_info_sml.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/site/images/icon_success_sml.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/site/images/icon_warning_sml.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/site/images/logos/build-by-maven-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/site/images/logos/build-by-maven-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/site/images/logos/maven-feather.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/site/images/newwindow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/surefire-reports/TEST-dev.thapelo.pokemon_details.ability.AbilityControllerTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/surefire-reports/TEST-dev.thapelo.pokemon_details.ability.AbilityServiceTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/surefire-reports/TEST-dev.thapelo.pokemon_details.details.DetailsControllerTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/surefire-reports/TEST-dev.thapelo.pokemon_details.details.DetailsServiceTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/surefire-reports/TEST-dev.thapelo.pokemon_details.stats.StatsControllerTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/surefire-reports/TEST-dev.thapelo.pokemon_details.stats.StatsServiceTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/surefire-reports/dev.thapelo.pokemon_details.ability.AbilityControllerTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/surefire-reports/dev.thapelo.pokemon_details.ability.AbilityServiceTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/surefire-reports/dev.thapelo.pokemon_details.details.DetailsControllerTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/surefire-reports/dev.thapelo.pokemon_details.details.DetailsServiceTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/surefire-reports/dev.thapelo.pokemon_details.stats.StatsControllerTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/surefire-reports/dev.thapelo.pokemon_details.stats.StatsServiceTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon/target/pokemon-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon/target/surefire-reports/TEST-dev.thapelo.pokemon.pokemon.PokemonControllerTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon/target/surefire-reports/TEST-dev.thapelo.pokemon.pokemon.PokemonServiceTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon/target/surefire-reports/dev.thapelo.pokemon.pokemon.PokemonControllerTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/pokemon/target/surefire-reports/dev.thapelo.pokemon.pokemon.PokemonServiceTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/src/test/java/dev/thapelo/pokemon_details/ability/AbilityControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/src/test/java/dev/thapelo/pokemon_details/ability/AbilityControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/src/test/java/dev/thapelo/pokemon_details/details/DetailsControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/src/test/java/dev/thapelo/pokemon_details/details/DetailsControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/src/test/java/dev/thapelo/pokemon_details/stats/StatsControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/src/test/java/dev/thapelo/pokemon_details/stats/StatsControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/AppConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/DetailsApplication$Seeder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/DetailsApplication$Seeder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/DetailsApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/DetailsApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/DetailsResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/DetailsResponse.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/Pokemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/Pokemon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/ThreadService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/ThreadService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/WebConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/ability/Ability$AbilityBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/ability/Ability$AbilityBuilder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/ability/Ability.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/ability/Ability.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/ability/AbilityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/ability/AbilityController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/ability/AbilityRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/ability/AbilityRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/ability/AbilityService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/ability/AbilityService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/details/Details$DetailsBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/details/Details$DetailsBuilder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/details/Details.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/details/Details.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/details/DetailsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/details/DetailsController.class" afterDir="false" />
@@ -23,12 +78,13 @@
       <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/stats/StatsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/stats/StatsController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/stats/StatsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/stats/StatsRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/stats/StatsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/classes/dev/thapelo/pokemon_details/stats/StatsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/target/test-classes/dev/thapelo/pokemon_details/ability/AbilityControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/test-classes/dev/thapelo/pokemon_details/ability/AbilityControllerTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/target/test-classes/dev/thapelo/pokemon_details/ability/AbilityServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/test-classes/dev/thapelo/pokemon_details/ability/AbilityServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/target/test-classes/dev/thapelo/pokemon_details/details/DetailsControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/test-classes/dev/thapelo/pokemon_details/details/DetailsControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/target/test-classes/dev/thapelo/pokemon_details/details/DetailsServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/test-classes/dev/thapelo/pokemon_details/details/DetailsServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/target/test-classes/dev/thapelo/pokemon_details/stats/StatsControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/test-classes/dev/thapelo/pokemon_details/stats/StatsControllerTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/pokemon-details/target/test-classes/dev/thapelo/pokemon_details/stats/StatsServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon-details/target/test-classes/dev/thapelo/pokemon_details/stats/StatsServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/pokemon/src/main/java/dev/thapelo/pokemon/ThreadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon/src/main/java/dev/thapelo/pokemon/ThreadService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/pokemon/src/main/java/dev/thapelo/pokemon/pokemon/PokemonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon/src/main/java/dev/thapelo/pokemon/pokemon/PokemonController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/pokemon/src/test/java/dev/thapelo/pokemon/pokemon/PokemonControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon/src/test/java/dev/thapelo/pokemon/pokemon/PokemonControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/pokemon/src/test/java/dev/thapelo/pokemon/pokemon/PokemonServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon/src/test/java/dev/thapelo/pokemon/pokemon/PokemonServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/pokemon/target/classes/dev/thapelo/pokemon/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon/target/classes/dev/thapelo/pokemon/AppConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/pokemon/target/classes/dev/thapelo/pokemon/PokemonApplication$Seeder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon/target/classes/dev/thapelo/pokemon/PokemonApplication$Seeder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/pokemon/target/classes/dev/thapelo/pokemon/PokemonApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon/target/classes/dev/thapelo/pokemon/PokemonApplication.class" afterDir="false" />
@@ -40,7 +96,9 @@
       <change beforePath="$PROJECT_DIR$/../backend/pokemon/target/classes/dev/thapelo/pokemon/pokemon/PokemonListResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon/target/classes/dev/thapelo/pokemon/pokemon/PokemonListResponse.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/pokemon/target/classes/dev/thapelo/pokemon/pokemon/PokemonRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon/target/classes/dev/thapelo/pokemon/pokemon/PokemonRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/pokemon/target/classes/dev/thapelo/pokemon/pokemon/PokemonService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon/target/classes/dev/thapelo/pokemon/pokemon/PokemonService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pokemon/target/test-classes/dev/thapelo/pokemon/pokemon/PokemonControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon/target/test-classes/dev/thapelo/pokemon/pokemon/PokemonControllerTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/pokemon/target/test-classes/dev/thapelo/pokemon/pokemon/PokemonServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pokemon/target/test-classes/dev/thapelo/pokemon/pokemon/PokemonServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

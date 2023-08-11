@@ -31,7 +31,7 @@ class StatsControllerTest {
     @Test
     void testGetStatsByPokemonId() throws Exception {
         when(statsRepository.findByPokemonId(Mockito.<Long>any())).thenReturn(new ArrayList<>());
-        MockHttpServletRequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/v1/details/stats/42");
+        MockHttpServletRequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/v1/pokemon/details/stats/42");
         MockMvcBuilders.standaloneSetup(statsController)
                 .build()
                 .perform(requestBuilder)

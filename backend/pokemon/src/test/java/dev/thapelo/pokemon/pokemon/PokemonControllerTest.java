@@ -34,7 +34,7 @@ class PokemonControllerTest {
     @Test
     void testGetPokemons() throws Exception {
         when(pokemonRepository.findAll()).thenReturn(new ArrayList<>());
-        MockHttpServletRequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/v1/pokemons");
+        MockHttpServletRequestBuilder requestBuilder = MockMvcRequestBuilders.get("/api/v1/pokemon/all");
         MockMvcBuilders.standaloneSetup(pokemonController)
                 .build()
                 .perform(requestBuilder)
