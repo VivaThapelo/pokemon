@@ -5,7 +5,7 @@ FROM maven:3.8.3-openjdk-17
 WORKDIR /app
 
 # Copy the Maven project file
-COPY ../pom.xml .
+COPY pom.xml .
 
 # Download the project dependencies
 RUN mvn dependency:go-offline -B

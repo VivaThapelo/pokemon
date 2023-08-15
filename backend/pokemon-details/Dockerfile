@@ -5,7 +5,7 @@ FROM maven:3.8.3-openjdk-17
 WORKDIR /app
 
 # Copy the Maven project file
-COPY ../pom.xml .
+COPY pom.xml .
 
 # Download the project dependencies
 RUN mvn dependency:go-offline -B
@@ -17,7 +17,7 @@ COPY ./src ./src
 RUN mvn package
 
 # Expose the port on which the application will run
-EXPOSE 8081
+EXPOSE 8085
 
 # Run the application
 CMD ["java", "-jar", "target/pokemon-details-1.0-SNAPSHOT.jar"]

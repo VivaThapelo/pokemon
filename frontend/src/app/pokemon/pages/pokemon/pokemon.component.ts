@@ -14,10 +14,15 @@ export class PokemonComponent implements OnInit{
   constructor(private service: PokemonsService) {
   }
 
+
   ngOnInit(): void {
     this.service.getPokemonList().subscribe( pokemons=> {
         this.pokemons$.next(pokemons);
     });
+  }
+
+  onSearch(name: string): Pokemon[] | undefined {
+    return this.pokemons$.value.filter( poke => poke.name === name);
   }
 
 }

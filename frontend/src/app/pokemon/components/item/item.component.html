@@ -1,6 +1,6 @@
 <div class="pokemon-item">
   <div>
-    <img *ngIf="(imageUrl$ | async); else placeHolder" pr ngSrc="{{imageUrl$ | async}}" alt="Image of Pokémon, {{pokemon?.name}}" priority="true" [width]="size" [height]="size">
+    <img *ngIf="(imageUrl$ | async); else placeHolder" ngSrc="{{imageUrl$ | async}}" alt="Image of Pokémon, {{pokemon?.name}}" priority="true" [width]="size" [height]="size">
     <ng-template #placeHolder>
       <img [src]=placeHolder alt="Placeholder Pokeball image" [width]="size" [height]="size">
     </ng-template>

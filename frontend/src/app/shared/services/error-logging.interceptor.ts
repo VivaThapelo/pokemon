@@ -6,11 +6,15 @@ import {
   HttpInterceptor, HttpResponse
 } from '@angular/common/http';
 import {finalize, Observable, tap, throwError} from 'rxjs';
+import {environment} from "../../../environments/environment";
+import { CloudWatchLogs } from "aws-sdk";
 
 @Injectable()
 export class ErrorLoggingInterceptor implements HttpInterceptor {
-
-  constructor() {}
+  awsLogs: CloudWatchLogs;
+  constructor() {
+    this.awsLogs = new CloudWatchLogs({region: 'eu-north-1'});
+  }
 
   intercept(request: HttpRequest<unknown>, next: HttpHandler): Observable<HttpEvent<unknown>> {
     const started = Date.now();
@@ -35,21 +39,20 @@ export class ErrorLoggingInterceptor implements HttpInterceptor {
         const msg = `${request.method} "${request.urlWithParams}"
              ${message} in ${elapsed} ms.`;
         console.log(msg);
-        // TODO: Aws Cloud Watch
-        // const params = {
-        //   logEvents: [
-        //     {
-        //       message: msg,
-        //       timestamp: elapsed
-        //     },
-        //   ],
-        //   logGroupName: environment.aws_log_group,
-        //   logStreamName: environment.aws_log_stream,
-        // };
-        // this.awsLogs.putLogEvents(params, function(err, data) {
-        //   if (err) console.log(err, err.stack);
-        //   else     console.log(data);
-        // });
+        const params = {
+          logEvents: [
+            {
+              message: msg,
+              timestamp: elapsed
+            },
+          ],
+          logGroupName: environment.aws_log_group,
+          logStreamName: environment.aws_log_stream,
+        };
+        this.awsLogs.putLogEvents(params, function(err, data) {
+          if (err) console.log(err, err.stack);
+          else     console.log(data);
+        });
       })
     );
   }
