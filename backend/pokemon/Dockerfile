@@ -14,10 +14,10 @@ RUN mvn dependency:go-offline -B
 COPY ./src ./src
 
 # Build the application
-RUN mvn package
+RUN mvn clean package spring-boot:repackage
 
 # Expose the port on which the application will run
 EXPOSE 8080
 
 # Run the application
-CMD ["java", "-jar", "target/pokemon-1.0-SNAPSHOT.jar"]
+ENTRYPOINT ["mvn", "spring-boot:repackage"]

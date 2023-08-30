@@ -8,6 +8,7 @@ services:
       - 8080:8080
     depends_on:
       - postgres
+
   pokemon-details:
     build:
       context: ./backend/pokemon-details
@@ -17,6 +18,7 @@ services:
     depends_on:
       - postgres
       - pokemon
+
   postgres:
     container_name: postgres
     image: postgres
@@ -54,3 +56,4 @@ networks:
 volumes:
   postgres:
   pgadmin:
+    

@@ -14,10 +14,12 @@ RUN mvn dependency:go-offline -B
 COPY ./src ./src
 
 # Build the application
-RUN mvn package
+RUN mvn clean package
+
+COPY . /app
 
 # Expose the port on which the application will run
 EXPOSE 8085
 
 # Run the application
-CMD ["java", "-jar", "target/pokemon-details-1.0-SNAPSHOT.jar"]
+ENTRYPOINT ["java", "-jar", "/app/build/libs/pokemon-details-1.0-SNAPSHOT.jar"]
